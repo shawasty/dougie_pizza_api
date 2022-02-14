@@ -1,0 +1,119 @@
+.navbar {
+    width: 100%;
+    background: #9aa04a;
+    display: inline-block;
+    padding: 10px;
+}
+.navbar ul{
+  list-style: none;
+  margin: 0 auto;
+  padding:0;
+}
+ 
+.navbar ul li{
+  color: #fff;
+  float: left;
+  line-height: 50px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: Arial;
+  transition: 0.5s;
+  position: relative;
+  padding:0 20px;
+}
+
+ 
+.navbar div button:hover:not(.active){
+  background: #c2333a;
+}
+.navbar div {
+  color: rgb(255, 255, 255);
+  float: left;
+  line-height: 50px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: Arial;
+  transition: 0.5s;
+  position: relative;
+  padding:0 20px;
+}
+
+.navbar div{
+  list-style:none;
+  margin: 0 auto;
+  padding:5px;
+}
+
+section button{
+  color: white;
+  background-color: rgb(255, 0, 0);
+}
+
+
+/* header {
+    width: 100%;
+    background: #9aa04a;
+    display: inline-block;
+    padding: 10px;
+}
+header div{
+  list-style: none;
+  margin: 0 auto;
+  padding:0;
+}
+ 
+header div button{
+  color: #fff;
+  float: left;
+  line-height: 50px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: Arial;
+  transition: 0.5s;
+  position: relative;
+  padding:0 20px;
+}
+
+header div input{
+  color: #fff;
+  float: left;
+  line-height: 50px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 1000;
+  text-transform: uppercase;
+  font-family: Arial;
+  transition: 0.5s;
+  position: relative;
+  padding:0 20px;
+}
+
+ 
+header div button:hover:not(.active){
+  background: #c2333a;
+}
+/* header div {
+  color: #fff;
+  float: left;
+  line-height: 50px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: Arial;
+  transition: 0.5s;
+  position: relative;
+  padding:0 20px;
+} */
+
+/* header div{
+  list-style:none;
+  margin: 0 auto;
+  padding:5px;
+} */ 
